@@ -128,7 +128,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => \App\User::class
+            'model' => \App\User::class // or \App\Models\User::class to Lumen 8
         ]
     ]
 ];
